@@ -4,7 +4,7 @@ This program demonstrates how to bypass recaptcha on https://myvisit.com/#!/home
 It can be easily adapted to work on other websites.<br>
 
 ## Background
-reCAPTCHA is a quite a roadblock for any automation engineer.<br>
+reCAPTCHA is quite a roadblock for any automation engineer.<br>
 It stops us from web scraping and blocks our automation software from doing online stuff for us.<br> This is achieved by presenting “complicated” puzzles that (allegedly) only humans can understand and solve.
 
 
