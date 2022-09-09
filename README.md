@@ -9,9 +9,9 @@ It stops us from web scraping and blocks our automation software from doing onli
 
 
 There are two ways to deal with a reCAPTCHA v2:
-1. Solve an image recognition challenge - This challenge asks the user to identify objects in a 3 x 3 or a 4 x 4 grid.<br> It seems quite easy to solve as we have many image classification algorithms such as GoogLeNet, ResNet, and MobileNet that have been trained to classify thousands of objects. So, it shouldn’t be a problem to “select all squares with vehicles”, right? Well, it turns out we often have this kind:
+1. Solve an image recognition challenge - This challenge asks the user to identify objects in a 3 x 3 or a 4 x 4 grid.<br> It seems quite easy to solve as we have many image classification algorithms such as GoogLeNet, ResNet, and MobileNet that have been trained to classify thousands of objects. So, it shouldn’t be a problem to “select all squares with vehicles”, right? Well, it turns out we often have this kind:<br>
 ![](images/problem.png)
-2. Solve an audio recognition challenge — This challenge requires the user to listen to a short, noisy audio recording and decipher the “human speech” from it. Using AI to detect human speech is a very mature technology (heard of Siri? Bixby? Alexa?). This is what I used to bypass the mechanism. 
+2. Solve an audio recognition challenge — This challenge requires the user to listen to a short, noisy audio recording and decipher<br> the “human speech” from it. Using AI to detect human speech is a very mature technology (you've probably heard of Siri, Bixby and Alexa).
 
 I played around with and tested the following web services:
 1. Google Speech Recognition
